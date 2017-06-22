@@ -1,0 +1,8 @@
+<h2>Used car list</h2>
+<ul>
+    <% for (let i = 0; i < vehicleList.length; i++) {%>
+        <li><%= (vehicleList[i].year + ' ' + vehicleList[i].make + ' ' + vehicleList[i].model) %></li>
+    <% } %>
+</ul>
+
+<a href="/add"><button name="add" value="Add car">Add car</button></a>
