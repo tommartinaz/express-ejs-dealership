@@ -1,6 +1,6 @@
 # express-ejs-dealership
 
-## Overview
+### Overview
 You were hired by a software consulting firm that is building an inventory management
 website and API for a used car dealership. This API must have the following endpoints:
 * Get all vehicles
