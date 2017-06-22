@@ -11,8 +11,15 @@ router.get('/', (req, res) => {
 
 router.get('/add', (req, res) => {
     res.render('add');
-
 })
+
+router.get('/filter', (req, res) => {
+    res.render('index', {
+        vehicleList: vehicles.find({
+            make: req.query.make
+        })
+    });
+});
 
 router.post('/add', function(req, res) {
     vehicles.insert({
