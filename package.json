@@ -1,0 +1,26 @@
+{
+  "name": "ejs-project-1",
+  "version": "1.0.0",
+  "description": "## Overview You were hired by a software consulting firm that is building an inventory management website and API for a used car dealership. This API must have the following endpoints: * Get all vehicles * Get one vehicle * Add one vehicle * Edit one vehicle * Delete one vehicle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gSchool/ejs-project-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gSchool/ejs-project-1/issues"
+  },
+  "homepage": "https://github.com/gSchool/ejs-project-1#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "lokijs": "^1.5.0"
+  }
+}
