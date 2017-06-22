@@ -1,4 +1,4 @@
-# ejs-project-1
+# express-ejs-dealership
 
 ## Overview
 You were hired by a software consulting firm that is building an inventory management
@@ -24,4 +24,4 @@ The front end must have the following functionality:
 * Fork and clone this repo
 * Don't worry about adding a config file for Loki.js. One has been added for you in the `db` folder.
 * Get it done. Like a boss.
-# express-ejs-dealership
+
