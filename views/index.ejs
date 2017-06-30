@@ -1,7 +1,8 @@
 <h2>Used car list</h2>
 <ul>
     <% for (let i = 0; i < vehicleList.length; i++) {%>
-        <li><%= (vehicleList[i].year + ' ' + vehicleList[i].make + ' ' + vehicleList[i].model) %></li>
+        <li><%= (vehicleList[i].year + ' ' + vehicleList[i].make + ' ' + vehicleList[i].model) %>
+        <a href='/edit/<%= vehicleList[i].id %>'>Edit</a></li>
     <% } %>
 </ul>
 

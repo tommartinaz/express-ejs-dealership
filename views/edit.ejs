@@ -1,0 +1,9 @@
+<form action="/edit" method="POST">
+    <input type="hidden" name="id" value="<%= vehicle.id %>">
+    Year: <input type="text" name="year" value="<%= vehicle.year %>">
+    <br>
+    Make:<input type="text" name="make" value="<%= vehicle.make %>">
+    <br>
+    Model:<input type="text" name="model" value="<%= vehicle.model %>">
+    <button type="submit">Update the car</button>
+</form>
